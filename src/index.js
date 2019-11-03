@@ -140,10 +140,10 @@ function Scene({ top, mouse }) {
       <Stars position={top.interpolate(top => [0, -1 + top / 20, 0])} />
       <Images top={top} mouse={mouse} scrollMax={scrollMax} />
       <Text opacity={top.interpolate([0, 200], [1, 0])} position={top.interpolate(top => [0, -1 + top / 200, 0])}>
-        Bjerk.crew
+       Martin Andersen
       </Text>
       <Text position={top.interpolate(top => [0, -20 + ((top * 10) / scrollMax) * 2, 0])} color="black" fontSize={150}>
-        martin,roger,eullin, Oslo
+        Bjerk AS crew event photos. 
       </Text>
     </>
   )
